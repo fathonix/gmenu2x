@@ -1,0 +1,30 @@
+--- a/src/menu.cpp
++++ b/src/menu.cpp
+@@ -25,6 +25,7 @@
+ #include <algorithm>
+ #include <math.h>
+ #include <fstream>
++#include <unistd.h>
+ 
+ #include "gmenu2x.h"
+ #include "linkapp.h"
+--- a/src/messagebox.cpp
++++ b/src/messagebox.cpp
+@@ -18,6 +18,7 @@
+  *   59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.             *
+  ***************************************************************************/
+ 
++#include <unistd.h>
+ #include <SDL.h>
+ #include <SDL_gfxPrimitives.h>
+ 
+--- a/src/utilities.cpp
++++ b/src/utilities.cpp
+@@ -27,6 +27,7 @@
+ #include <stdio.h>
+ #include <strings.h>
+ #include <math.h>
++#include <unistd.h>
+ 
+ #include <SDL.h>
+ 

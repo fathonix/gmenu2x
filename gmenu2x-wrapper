@@ -1,0 +1,4 @@
+#!/bin/sh
+
+cd /usr/share/gmenu2x
+exec /usr/libexec/gmenu2x
